@@ -1,0 +1,1 @@
+print(3if int(input())<0else 2)if int(input())<0else print(4if int(input())<0else 1)

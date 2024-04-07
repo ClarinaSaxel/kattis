@@ -1,0 +1,1 @@
+print('second'if int(input())%2==0else'first')
