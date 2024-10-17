@@ -1,0 +1,2 @@
+n,m=[int(x) for x in input().split()]
+print(f'Dr. Chaz will have {m-n} pieces of chicken left over!' if m>n+1 else f'Dr. Chaz will have 1 piece of chicken left over!' if m==n+1 else f'Dr. Chaz needs {n-m} more pieces of chicken!' if n>m+1 else f'Dr. Chaz needs 1 more piece of chicken!')
